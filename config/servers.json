@@ -1,0 +1,16 @@
+{
+    "servers": [
+        {
+            "name": "web-server-1",
+            "ip": "192.168.1.100",
+            "user": "admin",
+            "role": "web"
+        },
+        {
+            "name": "db-server-1", 
+            "ip": "192.168.1.101",
+            "user": "admin",
+            "role": "database"
+        }
+    ]
+}

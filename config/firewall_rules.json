@@ -1,0 +1,21 @@
+{
+    "web": {
+        "allow": [
+            {"port": "22", "protocol": "tcp", "source": "any"},
+            {"port": "80", "protocol": "tcp", "source": "any"},
+            {"port": "443", "protocol": "tcp", "source": "any"}
+        ],
+        "deny": [
+            {"port": "3306", "protocol": "tcp", "source": "any"}
+        ]
+    },
+    "database": {
+        "allow": [
+            {"port": "22", "protocol": "tcp", "source": "192.168.1.0/24"},
+            {"port": "3306", "protocol": "tcp", "source": "192.168.1.0/24"}
+        ],
+        "deny": [
+            {"port": "80", "protocol": "tcp", "source": "any"}
+        ]
+    }
+}
