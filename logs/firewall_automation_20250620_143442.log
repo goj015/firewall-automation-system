@@ -1,0 +1,9 @@
+[2025-06-20 14:34:42] [0;34mINFO[0m: Starting deployment to all configured servers
+[2025-06-20 14:34:42] [0;34mINFO[0m: Processing server 1: web-server-1
+[2025-06-20 14:34:42] [0;34mINFO[0m: Simulating deployment to web-server-1 (192.168.1.100) with role: web
+database
+[2025-06-20 14:34:43] [0;32mSUCCESS[0m: Deployment simulation completed for web-server-1
+[2025-06-20 14:34:44] [0;34mINFO[0m: Processing server 2: db-server-1
+[2025-06-20 14:34:44] [0;34mINFO[0m: Simulating deployment to db-server-1 (192.168.1.101) with role: database
+[2025-06-20 14:34:45] [0;32mSUCCESS[0m: Deployment simulation completed for db-server-1
+[2025-06-20 14:34:45] [0;32mSUCCESS[0m: Deployment completed: 2/2 servers processed
